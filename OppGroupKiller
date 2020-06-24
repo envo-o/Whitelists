@@ -1,7 +1,9 @@
 for i,v in pairs(game.Players:GetChildren()) do
    if v:IsInGroup(5440760) then
+   	local group = game:GetService("GroupService"):GetGroupInfoAsync(5440760)
     warn("Username : "..v.Name)
-    warn("Group : ".."21st-G-Block-Kartel")
+    warn("Group : "..group.Name)
+    warn("Group Rank : "..v:GetRoleInGroup(5440760))
     warn("Status : ".."Not Dead")
     print(".")
     wait()
@@ -14,8 +16,10 @@ for i,v in pairs(game.Players:GetChildren()) do
     warn("Status : ".."Dead")
     print("----")
    elseif v:IsInGroup(5360828) then
+   	local group = game:GetService("GroupService"):GetGroupInfoAsync(5360828)
    	warn("Username : "..v.Name)
-    warn("Group : ".."040th-Block-North-ide-Bloods")
+    warn("Group : "..group.Name)
+    warn("Group Rank : "..v:GetRoleInGroup(5360828))
     warn("Status : ".."Not Dead")
     print(".")
     wait()
@@ -28,8 +32,10 @@ for i,v in pairs(game.Players:GetChildren()) do
     warn("Status : ".."Dead")
     print("----")
    elseif v:IsInGroup(5454293) then
+   	local group = game:GetService("GroupService"):GetGroupInfoAsync(5454293)
    	warn("Username : "..v.Name)
-    warn("Group : ".."JD-Jamaican-Disciple")
+    warn("Group : "..group.Name)
+    warn("Group Rank : "..v:GetRoleInGroup(5454293))
     warn("Status : ".."Not Dead")
     print(".")
     wait()
@@ -42,8 +48,10 @@ for i,v in pairs(game.Players:GetChildren()) do
     warn("Status : ".."Dead")
     print("----")
    elseif v:IsInGroup(4715370) then
+   	local group = game:GetService("GroupService"):GetGroupInfoAsync(4715370)
    	warn("Username : "..v.Name)
-    warn("Group : ".."East-Side-Blu3z")
+    warn("Group : "..group.Name)
+    warn("Group Rank : "..v:GetRoleInGroup(4715370))
     warn("Status : ".."Not Dead")
     print(".")
     wait()
